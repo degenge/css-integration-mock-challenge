@@ -9,6 +9,50 @@
     display: flex;
     flex-direction: row;
     font-family: 'Montserrat', sans-serif;
-    padding: 15px;
-    background: #58b4ae;
+    padding: 3px;
+    background: #fbfcfd;
+}
+
+#card-body {
+    position: relative;
+    padding: 25px;
+    background-color: #ffffff;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h4 {
+    color: #c6c6c6;
+    padding: 5px 0;
+}
+
+#card-footer table {
+    position: absolute;
+    bottom: 0;
+}
+
+#card-footer table td:first-child {
+    width: 12%;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#card-footer table td:last-child {
+    width: 10%;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.card-footer-image {
+    width: 100%;
+}
+
+.card-footer-header {
+    font-weight: bold;
+}
+
+.card-footer-subscript {
+    color: #c6c6c6;
 }

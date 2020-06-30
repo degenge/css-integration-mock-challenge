@@ -9,8 +9,15 @@
     display: flex;
     flex-direction: row;
     font-family: 'Montserrat', sans-serif;
-    padding: 3px;
-    background: #fbfcfd;
+    padding: 2px;
+    background: #8c8c8c;
+    width: 720px;
+    margin: auto;
+}
+
+#card-image img {
+    /*width: 100%;*/
+    height: 100%;
 }
 
 #card-body {
@@ -20,21 +27,23 @@
 }
 
 h2 {
+    font-family: Arial, SansSerif, sans-serif;
     font-weight: bold;
 }
 
 h4 {
-    color: #c6c6c6;
+    color: #8c8c8c;
     padding: 5px 0;
 }
 
 #card-footer table {
     position: absolute;
     bottom: 0;
+    margin-bottom: 15px;
 }
 
 #card-footer table td:first-child {
-    width: 12%;
+    width: 13%;
     text-align: left;
     vertical-align: middle;
 }
@@ -46,7 +55,7 @@ h4 {
 }
 
 .card-footer-image {
-    width: 100%;
+    width: 80%;
 }
 
 .card-footer-header {
@@ -54,5 +63,5 @@ h4 {
 }
 
 .card-footer-subscript {
-    color: #c6c6c6;
+    color: #8c8c8c;
 }
